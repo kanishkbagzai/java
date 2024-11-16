@@ -9,7 +9,7 @@ public class question6 {
             System.out.println(year+" is leap year.");
         }
         else{
-            System.out.println(year+" is not as leap year.");
+            System.out.println(year+" is not a leap year.");
         }
     }
     public static boolean isleapyear(int year){
