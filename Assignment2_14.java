@@ -46,7 +46,7 @@ public class Assignment2_14{
         double basic_salary = scanner.nextDouble();
 
         // Create an Employee object
-        Assignment2_14 emp = new Assignment2_14(emp_id, emp_name, basic_salary);
+        Employee emp = new Employee(emp_id, emp_name, basic_salary);
 
         // Calculate gross salary
         emp.calculateGrossSalary();
